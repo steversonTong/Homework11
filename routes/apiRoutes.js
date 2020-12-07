@@ -1,6 +1,6 @@
 const fs = require('fs');
-const db = require("../../db/db.json");
-const id = require("../../db/currentID.json");
+const db = require("../db/db.json");
+const id = require("../db/currentID.json");
 
 
 function saveDBFile() {
